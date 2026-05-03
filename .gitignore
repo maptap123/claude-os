@@ -1,0 +1,8 @@
+# Obsidian workspace (volatile)
+.obsidian/workspace.json
+
+# Office lock files
+.~lock.*
+
+# Large binary screenshots from dev work
+Website Builder/Website/temporary screenshots/

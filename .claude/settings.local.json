@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\mapta\\\\Documents\\\\Claude OS\" -Depth 2)",
+      "Bash(Select-Object FullName)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\mapta\\\\Documents\\\\Claude OS\" -Depth 2 | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\mapta\\\\Documents\\\\Claude OS\\\\\", \"\"\\) })",
+      "Bash(python3 *)",
+      "Bash(node *)",
+      "Bash(Start-Sleep -Seconds 2)",
+      "PowerShell(Get-Command *)",
+      "Bash(Test-Path *)",
+      "PowerShell(Get-Process *)",
+      "Bash(where node *)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(/usr/bin/node --version)",
+      "Read(//c/Program Files/nodejs/**)",
+      "Bash(\"C:/Program Files/nodejs/node.exe\" screenshot.mjs http://localhost:3000/custom-home-process.html ad-check)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(curl -s \"https://api.anthropic.com/v1/design/h/XewelDRFkOPVPxUSPCKk8Q?open_file=README.md\")",
+      "Bash(curl -s --compressed \"https://api.anthropic.com/v1/design/h/XewelDRFkOPVPxUSPCKk8Q?open_file=README.md\")",
+      "Bash(curl -s --compressed -o design-bundle.tar.gz \"https://api.anthropic.com/v1/design/h/XewelDRFkOPVPxUSPCKk8Q\")",
+      "Bash(tar -xzf design-bundle.tar.gz)",
+      "Bash(\"C:/Program Files/nodejs/node.exe\" screenshot.mjs http://localhost:3000/custom-home-process.html ad-v2)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;\" + $env:Path; cd \"C:\\\\Users\\\\mapta\\\\Documents\\\\Claude OS\\\\Website Builder\\\\Website\"; node screenshot.mjs http://localhost:3000/articles.html articles-grid-final; node screenshot.mjs http://localhost:3000/articles/home-addition-cost-2026.html home-addition-final)"
+    ]
+  }
+}

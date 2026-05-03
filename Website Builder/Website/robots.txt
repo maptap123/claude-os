@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+Disallow: /node_modules/
+
+Sitemap: https://jdcremodeling.com/sitemap.xml
