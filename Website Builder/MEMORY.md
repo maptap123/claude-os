@@ -29,7 +29,7 @@ Source: Cowork Toolkit by Jeff Su — [coworkacademy.ai/toolkit](https://coworka
 | Founded | 1996 |
 | Owners | Jason & Lisa Cox |
 | Phone | (812) 637-2684 |
-| Email | info@jdcconstruction.com |
+| Email | customerservice@jdcremodeling.com |
 | Award | Indiana Remodeler of the Year, 2019 (Indiana Builders Association) |
 | NAHB Designations | GMR, GMB, CGR, CAPS, CGP |
 | Brand colors | Navy #091b37, Gold #f2b900, Cream #f7f5f2 |
