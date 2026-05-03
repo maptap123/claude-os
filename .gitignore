@@ -9,3 +9,6 @@ node_modules/
 
 # Large binary screenshots from dev work
 Website Builder/Website/temporary screenshots/
+
+# JDC Website — managed in its own repo (jdc-website)
+Website Builder/Website/
