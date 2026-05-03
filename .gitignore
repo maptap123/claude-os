@@ -4,5 +4,8 @@
 # Office lock files
 .~lock.*
 
+# Dependencies
+node_modules/
+
 # Large binary screenshots from dev work
 Website Builder/Website/temporary screenshots/
