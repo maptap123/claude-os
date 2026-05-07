@@ -18,5 +18,5 @@ Source: Cowork Toolkit by Jeff Su — [coworkacademy.ai/toolkit](https://coworka
 - My company uses Google Workspace (Gmail, Calendar, Drive). \[Update this with your actual tools.\]  
 - My manager is \[name\]. Direct reports: \[names or "none"\]. \[Delete this entry if not applicable.\]
 - **Blog images:** Every blog article must include at least one relevant photo from Cloudinary. Additional photos from other sources are fine, but the Cloudinary photo is required.
-- **SEO audit:** Full SEO audit of JDC website completed (2026-05-01). Optimization deferred until site is finished. Plan saved at `C:\Users\mapta\.claude\plans\encapsulated-napping-catmull.md`. Resume when August says the site content is final.
+- **JDC SEO:** Domain is `jdcremodeling.com` (not jdcconstructionllc.com). Full SEO audit completed 2026-05-01, all optimizations implemented, pages submitted to Google Search Console for indexing. As of 2026-05-05, Search Console shows "Processing data" — still waiting for Google to index. Check back in 24–48 hours.
 

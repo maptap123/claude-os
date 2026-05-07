@@ -32,9 +32,13 @@ When I say "remember this," write the information to MEMORY.md immediately and c
 
 | Workstation | Route here when I... |
 | :---- | :---- |
-| Email HQ | ...need to draft, reply to, or review any email |
-| \[Personal Finances\] | \[...am working on budgets, spending, savings, or investments\] |
-| Website Builder | ...am working on the JDC Construction website — design, copy, SEO, or dev changes |
+| Personal/Email HQ | ...need to draft, reply to, or review any email |
+| Personal/Personal Finances | ...am working on budgets, spending, savings, or investments |
+| JDC/Website Builder | ...am working on the JDC Construction website — design, copy, SEO, or dev changes |
+| JDC/Estimating | ...need to build, review, or import a JDC project estimate (cost codes, takeoffs, Buildertrend imports) |
+| Own Brand/Marketing Outreach | ...need to research local business leads, draft cold outreach, or manage my sales pipeline |
+| JDC/Finance | ...am working on JDC finances, profit tracking, expense analysis, QuickBooks data, or trying to understand where the money is going |
+| SharpEye | ...am doing lead gen, sales outreach, monthly reports, presentations, or any Sharp-Eye Precision Parts work |
 
 ## References
 

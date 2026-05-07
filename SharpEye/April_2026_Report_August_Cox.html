@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monthly Activity Report — April 2026 · Sharp-Eyed Precision</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 14px;
+      color: #1a1a2e;
+      background: #f4f5f7;
+      padding: 40px 20px;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 0 0 48px 0;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    }
+
+    /* ── Header ── */
+    .report-header {
+      background: #1a2744;
+      padding: 40px 48px 32px;
+      color: #ffffff;
+    }
+
+    .report-header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      margin-bottom: 10px;
+    }
+
+    .report-header .subtitle {
+      font-size: 13px;
+      color: #a8b8d8;
+      letter-spacing: 0.4px;
+    }
+
+    /* ── Meta row ── */
+    .meta-row {
+      display: flex;
+      border-bottom: 1px solid #e8eaf0;
+      padding: 0 48px;
+    }
+
+    .meta-cell {
+      flex: 1;
+      padding: 18px 0;
+      border-right: 1px solid #e8eaf0;
+    }
+
+    .meta-cell:last-child { border-right: none; }
+
+    .meta-label {
+      font-size: 11px;
+      color: #9098a9;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      margin-bottom: 5px;
+    }
+
+    .meta-value {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1a2744;
+    }
+
+    /* ── Body ── */
+    .body {
+      padding: 36px 48px 0;
+    }
+
+    /* ── Section ── */
+    .section {
+      margin-bottom: 36px;
+    }
+
+    .section-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1e5fa8;
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e2e8f4;
+    }
+
+    p {
+      line-height: 1.65;
+      color: #2d3748;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin-top: 6px;
+    }
+
+    ul li {
+      line-height: 1.65;
+      color: #2d3748;
+      margin-bottom: 6px;
+    }
+
+    /* ── Highlight box (Roush) ── */
+    .highlight-box {
+      background: #f0f5ff;
+      border-left: 4px solid #1e5fa8;
+      padding: 16px 20px;
+      margin: 14px 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .highlight-box .stat {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a2744;
+      margin-bottom: 2px;
+    }
+
+    .highlight-box .stat-label {
+      font-size: 11px;
+      color: #6b7a99;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stats-row {
+      display: flex;
+      gap: 16px;
+      margin: 14px 0;
+    }
+
+    .stats-row .highlight-box {
+      flex: 1;
+    }
+
+    /* ── Tag / badge ── */
+    .badge {
+      display: inline-block;
+      background: #e8f0fe;
+      color: #1e5fa8;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-green {
+      background: #e6f4ea;
+      color: #2e7d32;
+    }
+
+    .badge-amber {
+      background: #fff8e1;
+      color: #b45309;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid #e2e8f4;
+      text-align: center;
+      font-size: 11px;
+      color: #9098a9;
+      letter-spacing: 0.4px;
+    }
+
+    @media print {
+      body { background: white; padding: 0; }
+      .page { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="report-header">
+    <h1>Monthly Activity Report</h1>
+    <div class="subtitle">April 2026 &nbsp;·&nbsp; Sharp-Eyed Precision</div>
+  </div>
+
+  <!-- Meta -->
+  <div class="meta-row">
+    <div class="meta-cell">
+      <div class="meta-label">Prepared by</div>
+      <div class="meta-value">August Cox</div>
+    </div>
+    <div class="meta-cell">
+      <div class="meta-label">Submitted to</div>
+      <div class="meta-value">Vincent Wang</div>
+    </div>
+    <div class="meta-cell">
+      <div class="meta-label">Reporting Period</div>
+      <div class="meta-value">April 2026</div>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="body">
+
+    <!-- Overview -->
+    <div class="section">
+      <div class="section-title">Overview</div>
+      <p>April was a month of meaningful progress on multiple fronts. I secured a key in-person meeting with CMT Imports, represented Sharp-Eyed Precision at the DIAMTS show in Detroit, completed the Tesla-MEMA supplier questionnaire, began building fluency with the OKKI platform, and made an early connection with Roush Enterprises — a company with significant long-term potential as a major client.</p>
+    </div>
+
+    <!-- CMT Imports -->
+    <div class="section">
+      <div class="section-title">Key Meeting — CMT Imports (In-Person)</div>
+      <span class="badge badge-amber">Pipeline: Moderate Potential</span>
+      <p>I held a 3-hour in-person meeting with the team at CMT Imports. It was a substantive conversation and a positive sign of genuine interest. Coming out of the meeting, they agreed to begin sending Sharp-Eyed Precision RFQs so they can evaluate us against their current suppliers.</p>
+      <ul>
+        <li>Meeting duration: 3 hours — engaged, detailed discussion of capabilities and pricing approach.</li>
+        <li>Next step: receive and respond to incoming RFQs from CMT.</li>
+        <li>Company revenue: approximately $40M annually. Opportunity is real, but likely not large-volume at this stage.</li>
+        <li>Overall assessment: worth maintaining and nurturing. Getting into their quoting process is the right first move.</li>
+      </ul>
+    </div>
+
+    <!-- DIAMTS Show -->
+    <div class="section">
+      <div class="section-title">Industry Presence — DIAMTS Show, Detroit</div>
+      <span class="badge">Event Attendance</span>
+      <p>I attended the Detroit International Advanced Manufacturing Technology Show (DIAMTS) this month. Sharp-Eyed Precision had a booth presence, and I spent the event engaging with attendees, presenting our sample parts, and building connections with buyers and decision-makers in the automotive and manufacturing space.</p>
+      <ul>
+        <li>Represented Sharp-Eyed at the DIAMTS booth with a full display of precision part samples.</li>
+        <li>Networked with industry contacts across automotive, tooling, and contract manufacturing sectors.</li>
+        <li>The show reinforced that in-person visibility in the Detroit market is important — buyers respond well to seeing parts in hand.</li>
+      </ul>
+    </div>
+
+    <!-- Tesla / MEMA -->
+    <div class="section">
+      <div class="section-title">Tesla Supply Chain Opportunity — MEMA Questionnaire Submitted</div>
+      <span class="badge badge-green">Action Completed</span>
+      <p>As planned last month, I completed and submitted the MEMA-Tesla supplier questionnaire on behalf of Sharp-Eyed Precision. Tesla, in partnership with MEMA, is selecting 60 companies to meet with as potential supply chain partners, with meetings expected to take place at Tesla's headquarters.</p>
+      <ul>
+        <li>Questionnaire submitted — awaiting selection notification from Tesla/MEMA.</li>
+        <li>If selected, this would be a significant opportunity for a direct relationship with a top-tier EV manufacturer.</li>
+        <li>Will continue monitoring for any outreach and prepare a strong company introduction if selected.</li>
+      </ul>
+    </div>
+
+    <!-- OKKI -->
+    <div class="section">
+      <div class="section-title">Tool Development — OKKI Platform</div>
+      <span class="badge">In Progress</span>
+      <p>I have been actively learning and exploring OKKI, Alibaba's AI-powered foreign trade platform. The platform has strong potential as a systematic tool for prospect discovery, outreach automation, and client management — areas where we currently rely on more manual effort.</p>
+      <ul>
+        <li>OKKI aggregates global trade data, Google Maps leads, B2B inquiries, and social contacts into a single hub.</li>
+        <li>AI-powered email drafting and multilingual communication features are particularly relevant for reaching U.S. buyers efficiently.</li>
+        <li>Goal: have a working outreach workflow built in OKKI next month to begin generating a more consistent pipeline of qualified leads.</li>
+      </ul>
+    </div>
+
+    <!-- Roush -->
+    <div class="section">
+      <div class="section-title">High-Value Target — Roush Enterprises</div>
+      <span class="badge badge-green">Strategic Opportunity</span>
+
+      <p>This month I made an initial connection with someone from Roush Enterprises. This is a relationship worth investing in seriously. Roush is one of the most capable and well-resourced contract engineering and manufacturing companies in Michigan, and if we can find the right way in and earn their trust, they have the potential to become one of Sharp-Eyed's largest U.S. clients.</p>
+
+      <div class="stats-row">
+        <div class="highlight-box">
+          <div class="stat">$500M – $760M</div>
+          <div class="stat-label">Estimated Annual Revenue</div>
+        </div>
+        <div class="highlight-box">
+          <div class="stat">$200M – $275M</div>
+          <div class="stat-label">Estimated Annual Spend on Fabricated &amp; Precision Parts*</div>
+        </div>
+        <div class="highlight-box">
+          <div class="stat">Livonia, MI</div>
+          <div class="stat-label">Headquarters</div>
+        </div>
+      </div>
+
+      <p><strong>Who they are:</strong> Roush Enterprises is a privately held engineering, manufacturing, and testing company headquartered in Livonia, Michigan. Founded in 1995, they serve automotive OEMs (Ford, GM, and others), motorsports teams, aerospace programs, and defense clients. Their core work includes vehicle prototyping and development, contract manufacturing, specialty vehicle assembly, and production testing. They run a significant in-house machining operation (90,000 sq. ft. facility) but also source precision components externally for high-volume and specialty programs.</p>
+
+      <p><strong>Why this matters for Sharp-Eyed:</strong> Companies like Roush run complex, multi-material programs requiring precision-machined aluminum, steel, and hardened steel components at consistent quality. Their external sourcing needs, particularly for automotive and aerospace-grade fabricated parts, align directly with Sharp-Eyed's capabilities and certifications (IATF 16949, ISO 9001). The spend potential, estimated at $200M–$275M annually across fabricated and machined parts, makes this one of the highest-value targets in our pipeline.</p>
+
+      <p><strong>Next steps:</strong></p>
+      <ul>
+        <li>Nurture the existing contact — focus on building personal trust before pushing any commercial conversation.</li>
+        <li>Research which programs or categories Roush currently sources externally and where Sharp-Eyed fits.</li>
+        <li>Prepare a targeted company introduction with relevant certifications and sample parts most relevant to their programs.</li>
+        <li>Patience is key here. Roush is a sophisticated buyer; a long, trust-first approach is the right one.</li>
+      </ul>
+
+      <p style="font-size: 12px; color: #9098a9; margin-top: 10px;">* Fabricated/precision parts spend is a modeled estimate based on industry benchmarks (40–55% of revenue for contract manufacturers). Roush is privately held and does not publish procurement figures.</p>
+    </div>
+
+    <!-- Looking Ahead -->
+    <div class="section">
+      <div class="section-title">Looking Ahead — May Pipeline</div>
+      <ul>
+        <li>Respond to incoming RFQs from CMT Imports promptly and competitively.</li>
+        <li>Monitor for Tesla/MEMA selection notification — prepare company introduction materials in advance.</li>
+        <li>Launch first active outreach campaign inside OKKI with qualified leads from the Detroit/Michigan area.</li>
+        <li>Continue building the Roush relationship — focus on personal connection before any formal pitch.</li>
+        <li>Continue door-knocking and direct outreach to build pipeline depth.</li>
+        <li>Continue communication with GTI — ongoing relationship from last month with active sales conversations in progress.</li>
+        <li>Follow up with any DIAMTS contacts who expressed interest.</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      Sharp-Eyed Precision &nbsp;·&nbsp; Confidential Internal Report &nbsp;·&nbsp; April 2026
+    </div>
+
+  </div><!-- /body -->
+</div><!-- /page -->
+</body>
+</html>
